@@ -32,7 +32,6 @@ list_of_city = ["Abidjan", "Abu Dhabi", "Abuja", "Accra", "Adana", "Addis Ababa"
                 'Stockholm','Surabaya','Suva','Sydney','Taipei','Tallinn','Tashkent','Tbilisi','Tegucigalpa','Tel Aviv','Tijuana',
                 'Tijuana Tpf','Tirana','Tokyo','Toronto','Tripoli','Tunis','Ulaanbaatar','Usun-New York','Valletta','Vancouver',
                 'Vienna','Vientiane','Vilnius','Vladivostok','Warsaw','Windhoek','Yaounde','Yekaterinburg','Yerevan','Zagreb',
-
                 ]
 
 
@@ -48,7 +47,7 @@ for el in list_of_city:
     input.send_keys(el)
     input.send_keys(Keys.ENTER)
     time.sleep(2)
-    value = browser.find_element_by_class_name('num_days_visitor').text
+    value = browser.find_element_by_class_name('num_days_visitor').text.replace('Calendar Days', '').replace('Calendar Day', '')
     visa.append({
         'el': value,
     })
