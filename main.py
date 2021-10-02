@@ -31,7 +31,8 @@ list_of_city = ["Abidjan", "Abu Dhabi", "Abuja", "Accra", "Adana", "Addis Ababa"
                 'Sapporo','Sarajevo','Seoul','Shanghai','Shenyang','Singapore','Skopje','Sofia','St Georges','St Petersburg',
                 'Stockholm','Surabaya','Suva','Sydney','Taipei','Tallinn','Tashkent','Tbilisi','Tegucigalpa','Tel Aviv','Tijuana',
                 'Tijuana Tpf','Tirana','Tokyo','Toronto','Tripoli','Tunis','Ulaanbaatar','Usun-New York','Valletta','Vancouver',
-                'Vienna','Vientiane','Vilnius','Vladivostok','Warsaw','Windhoek',
+                'Vienna','Vientiane','Vilnius','Vladivostok','Warsaw','Windhoek','Yaounde','Yekaterinburg','Yerevan','Zagreb',
+
                 ]
 
 
