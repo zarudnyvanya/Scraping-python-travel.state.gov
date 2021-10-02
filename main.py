@@ -17,7 +17,18 @@ list_of_city = ["Abidjan", "Abu Dhabi", "Abuja", "Accra", "Adana", "Addis Ababa"
                 'Florence','Frankfurt', 'Freetown',
                 'Gaborone','Georgetown','Guadalajara','Guangzhou','Guatemala City','Guayaquil',
                 'Halifax','Hamilton','Hanoi','Harare','Havana','Helsinki','Hermosillo','Ho Chi Minh City','Hong Kong','Hyderabad',
-                'Islamabad','Istanbul',
+                'Islamabad','Istanbul','Jakarta','Jeddah','Jerusalem','Johannesburg','Juba',
+                'Kabul','Kampala','Kaohsiung','Karachi','Kathmandu','Khartoum','Kigali','Kingston','Kinshasa','Kolkata',
+                'Kolonia','Koror','Krakow','Kuala Lumpur','Kuwait','Kyiv',
+                'Lagos','Lahore','Libreville','Lilongwe','Lima','Lisbon','Ljubljana','Lome','London','Luanda','Lusaka','Luxembourg',
+                'Madrid','Majuro','Malabo','Managua','Manama','Manila','Maputo','Marseille','Maseru','Matamoros','Mbabane',
+                'Melbourne','Merida','Mexico City','Milan','Minsk','Monrovia','Monterrey','Montevideo','Montreal',
+                'Moscow','Mumbai','Munich','Muscat','N Djamena',"N'Djamena",'N`Djamena','Naha','Nairobi','Naples','Nassau',
+                'New Delhi','Niamey','Nicosia','Nogales','Nouakchott','Nuevo Laredo','Nur-Sultan','Osaka-Kobe','Oslo','Ottawa','Ouagadougou',
+                'Panama City','Paramaribo','Paris','Perth','Phnom Penh','Podgorica','Port Au Prince','Port Louis','Port Moresby',
+                'Port Of Spain','Porto Alegre','Prague','Praia','Pristina','Quebec','Quito','Rangoon','Recife','Reykjavik',
+                'Riga','Rio De Janeiro','Riyadh','Rome',
+
                 ]
 
 
