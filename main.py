@@ -27,8 +27,11 @@ list_of_city = ["Abidjan", "Abu Dhabi", "Abuja", "Accra", "Adana", "Addis Ababa"
                 'New Delhi','Niamey','Nicosia','Nogales','Nouakchott','Nuevo Laredo','Nur-Sultan','Osaka-Kobe','Oslo','Ottawa','Ouagadougou',
                 'Panama City','Paramaribo','Paris','Perth','Phnom Penh','Podgorica','Port Au Prince','Port Louis','Port Moresby',
                 'Port Of Spain','Porto Alegre','Prague','Praia','Pristina','Quebec','Quito','Rangoon','Recife','Reykjavik',
-                'Riga','Rio De Janeiro','Riyadh','Rome',
-
+                'Riga','Rio De Janeiro','Riyadh','Rome','San Jose','San Salvador','Sanaa','Santiago','Santo Domingo','Sao Paulo',
+                'Sapporo','Sarajevo','Seoul','Shanghai','Shenyang','Singapore','Skopje','Sofia','St Georges','St Petersburg',
+                'Stockholm','Surabaya','Suva','Sydney','Taipei','Tallinn','Tashkent','Tbilisi','Tegucigalpa','Tel Aviv','Tijuana',
+                'Tijuana Tpf','Tirana','Tokyo','Toronto','Tripoli','Tunis','Ulaanbaatar','Usun-New York','Valletta','Vancouver',
+                'Vienna','Vientiane','Vilnius','Vladivostok','Warsaw','Windhoek',
                 ]
 
 
