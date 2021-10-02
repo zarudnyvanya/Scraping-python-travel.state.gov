@@ -13,8 +13,11 @@ list_of_city = ["Abidjan", "Abu Dhabi", "Abuja", "Accra", "Adana", "Addis Ababa"
                 'Cairo','Calgary','Cape Town','Caracas','Casablanca','Chengdu','Chennai','Chiang Mai','Chisinau',
                 'Ciudad Juarez','Colombo','Conakry','Copenhagen','Cotonou','Curacao',
                 'Dakar','Damascus','Dar Es Salaam','Dhahran','Dhaka','Dili','Djibouti',
-                'Doha','Dubai','Dublin', 'Durban','Dushanbe',
-
+                'Doha','Dubai','Dublin', 'Durban','Dushanbe','Erbil',
+                'Florence','Frankfurt', 'Freetown',
+                'Gaborone','Georgetown','Guadalajara','Guangzhou','Guatemala City','Guayaquil',
+                'Halifax','Hamilton','Hanoi','Harare','Havana','Helsinki','Hermosillo','Ho Chi Minh City','Hong Kong','Hyderabad',
+                'Islamabad','Istanbul',
                 ]
 
 
