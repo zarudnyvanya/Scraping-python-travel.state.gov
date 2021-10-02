@@ -10,6 +10,8 @@ list_of_city = ["Abidjan", "Abu Dhabi", "Abuja", "Accra", "Adana", "Addis Ababa"
                 'Baku','Bamako','Bandar Seri Begawan','Bangkok','Banjul','Barcelona','Beijing',
                 'Beirut','Belfast','Belgrade','Belmopan','Berlin','Bern','Bishkek','Bogota','Brasilia',
                 'Bratislava','Brazzaville','Bridgetown','Brussels','Bucharest','Budapest','Buenos Aires','Bujumbura',
+                'Cairo','Calgary','Cape Town','Caracas','Casablanca','Chengdu','Chennai(Madras)','Chiang Mai','Chisinau',
+                'Ciudad Juarez','Colombo','Conakry','Copenhagen','Cotonou','Curacao',
                 ]
 
 
