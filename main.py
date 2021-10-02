@@ -10,8 +10,11 @@ list_of_city = ["Abidjan", "Abu Dhabi", "Abuja", "Accra", "Adana", "Addis Ababa"
                 'Baku','Bamako','Bandar Seri Begawan','Bangkok','Banjul','Barcelona','Beijing',
                 'Beirut','Belfast','Belgrade','Belmopan','Berlin','Bern','Bishkek','Bogota','Brasilia',
                 'Bratislava','Brazzaville','Bridgetown','Brussels','Bucharest','Budapest','Buenos Aires','Bujumbura',
-                'Cairo','Calgary','Cape Town','Caracas','Casablanca','Chengdu','Chennai(Madras)','Chiang Mai','Chisinau',
+                'Cairo','Calgary','Cape Town','Caracas','Casablanca','Chengdu','Chennai','Chiang Mai','Chisinau',
                 'Ciudad Juarez','Colombo','Conakry','Copenhagen','Cotonou','Curacao',
+                'Dakar','Damascus','Dar Es Salaam','Dhahran','Dhaka','Dili','Djibouti',
+                'Doha','Dubai','Dublin', 'Durban','Dushanbe',
+
                 ]
 
 
@@ -22,6 +25,7 @@ path = 'visa_usa.csv'
 input = browser.find_element_by_xpath(xpath_input)
 visa = []
 i = 0
+print(f'Number of cities: {len(list_of_city)}')
 for el in list_of_city:
     input.send_keys(el)
     input.send_keys(Keys.ENTER)
@@ -35,13 +39,14 @@ for el in list_of_city:
 
 
 # print(visa)
+while i < len(list_of_city):
+    with open(path, 'w', newline='') as file:
+        writer = csv.writer(file, delimiter=';')
+        writer.writerow(['City', 'Wait time'])
+        for item in visa:
+            writer.writerow([list_of_city[i], item['el']])
+            i += 1
 
-with open(path, 'w', newline='') as file:
-    writer = csv.writer(file, delimiter=';')
-    writer.writerow(['City', 'Wait time'])
-    for item in visa:
-        writer.writerow([list_of_city[i], item['el']])
-        i += 1
 
 
 
